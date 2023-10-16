@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T08:53:06 IST" name="Default suite" finished-at="2023-10-03T08:53:06 IST" duration-ms="679">
+    <groups>
+    </groups>
+    <test started-at="2023-10-03T08:53:06 IST" name="Default test" finished-at="2023-10-03T08:53:06 IST" duration-ms="679">
+      <class name="dataread.ExcelDataReading">
+        <test-method signature="ReadTestData(java.util.HashMap)[pri:0, instance:dataread.ExcelDataReading@5af3afd9]" started-at="2023-10-03T08:53:06 IST" name="ReadTestData" data-provider="CreditCardData" finished-at="2023-10-03T08:53:06 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=01-09-2023, CVV=234.0, NameOnCard=JavaTech, CreditCardNumber=234567892345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadTestData -->
+        <test-method signature="ReadTestData(java.util.HashMap)[pri:0, instance:dataread.ExcelDataReading@5af3afd9]" started-at="2023-10-03T08:53:06 IST" name="ReadTestData" data-provider="CreditCardData" finished-at="2023-10-03T08:53:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=01-10-2023, CVV=345.0, NameOnCard=NewTech, CreditCardNumber=234567892345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadTestData -->
+        <test-method signature="ReadTestData(java.util.HashMap)[pri:0, instance:dataread.ExcelDataReading@5af3afd9]" started-at="2023-10-03T08:53:06 IST" name="ReadTestData" data-provider="CreditCardData" finished-at="2023-10-03T08:53:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=01-11-2023, CVV=456.0, NameOnCard=PythonTech, CreditCardNumber=234567892345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadTestData -->
+      </class> <!-- dataread.ExcelDataReading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
