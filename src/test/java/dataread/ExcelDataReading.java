@@ -20,7 +20,7 @@ public class ExcelDataReading {
 	}
 	@DataProvider(name = "CreditCardData")
 	public Object[][] readData() throws Exception{
-		
+		System.out.println("test");
 		FileInputStream file = new FileInputStream("C:\\Users\\Cybil\\OneDrive\\Desktop\\CreditCardTestData.xlsx");
 		XSSFWorkbook workBook = new XSSFWorkbook(file);
 		XSSFSheet worksheet = workBook.getSheet("TestData");
